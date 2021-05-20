@@ -18,9 +18,6 @@ if(isset($_POST['register']))
   <head>
     <title>Register Form</title>
  
- 
- 
- 
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -61,7 +58,6 @@ if(isset($_POST['register']))
         <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama">
       </div>
     </div>
- 
  
   <div class="form-group row">
     <label for="password" class="col-sm-2 col-form-label">Password</label>
