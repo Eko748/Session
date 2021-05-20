@@ -38,9 +38,6 @@ if(isset($_POST['login']))
   <head>
     <title>Login Form</title>
  
-
- 
- 
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
