@@ -6,11 +6,8 @@ if (!isset($_SESSION['is_login'])) {
 ?>
 <!doctype html>
 <html lang="en">
-
 <head>
-
     <title>Home</title>
-
 
     <style>
         nav ul {
@@ -30,8 +27,8 @@ if (!isset($_SESSION['is_login'])) {
             nav ul {
                 flex-direction: row;
             }
-
         }
+        
         nav ul li {
             display: block;
             flex: 1;
@@ -43,7 +40,6 @@ if (!isset($_SESSION['is_login'])) {
             border-radius: 1em;
             text-decoration: none;
             color:  whitesmoke;
-
         }
 
         body {
@@ -69,9 +65,7 @@ if (!isset($_SESSION['is_login'])) {
             }
         }
     </style>
-
 </head>
-
 <body>
 <nav>
           <ul>
@@ -95,5 +89,4 @@ if (!isset($_SESSION['is_login'])) {
 
         </main>
     </center>
-
 </html>
